@@ -4,6 +4,9 @@ This repository container javascript exercise designed to improve your coding sk
 
 ## Exercises List 
 
-1. C:\Users\Administrator\Desktop\HTML\dugsiiye\Dugsiiye-js-exercise\exercise-1
+1. ### exercise-1 ![](Dugsiiye-js-exercise\exercise-1)
+
+
+
 
 
