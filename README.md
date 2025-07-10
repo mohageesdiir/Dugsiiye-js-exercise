@@ -6,6 +6,9 @@ This repository container javascript exercise designed to improve your coding sk
 
 1. ### exercise-1 ![](Dugsiiye-js-exercise\exercise-1)
 
+2. ### exercise-2 ![](Dugsiiye-js-exercise\exercise-2)
+
+
 
 
 
