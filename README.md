@@ -10,6 +10,8 @@ This repository container javascript exercise designed to improve your coding sk
 
 3. ### exercise-3 ![](Dugsiiye-js-exercise\exercise-3)
 
+4. ### exercise-4 ![](Dugsiiye-js-exercise\exercise-4)
+
 
 
 
