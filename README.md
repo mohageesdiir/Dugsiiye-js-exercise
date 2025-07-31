@@ -38,6 +38,8 @@ This repository container javascript exercise designed to improve your coding sk
 
 17. ### exercise-17 ![](Dugsiiye-js-exercise\exercise-17)
 
+18. ### exercise-18 ![](Dugsiiye-js-exercise\exercise-18)
+
 
 
 
