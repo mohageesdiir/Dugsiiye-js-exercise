@@ -52,6 +52,8 @@ This repository container javascript exercise designed to improve your coding sk
 
 24. ### exercise-24 ![](Dugsiiye-js-exercise\exercise-24)
 
+25. ### exercise-25 ![](Dugsiiye-js-exercise\exercise-25)
+
 
 
 
