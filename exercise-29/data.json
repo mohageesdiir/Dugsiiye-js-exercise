@@ -1,0 +1,13 @@
+{
+    "id": 1,
+    "name": "cumar",
+    "city": "baydhabo",
+    "orders": [
+        { "id": 10, "product": "Laptop", "quantity": 1 },
+        { "id": 11, "product": "Mouse", "quantity": 1 },
+        { "id": 12, "product": "cover laptop", "quantity": 1 }
+    ]
+}
+
+
+
