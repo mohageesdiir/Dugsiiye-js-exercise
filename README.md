@@ -69,3 +69,5 @@ This repository container javascript exercise designed to improve your coding sk
 32. ### exercise-32 ![](Dugsiiye-js-exercise\exercise-32)
 
 33. ### exercise-33 ![](Dugsiiye-js-exercise\exercise-33)
+
+34. ### exercise-34 ![](Dugsiiye-js-exercise\exercise-34)
