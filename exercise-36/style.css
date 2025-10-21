@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.parent {
+  /* border: 1px solid black; */
+  box-shadow: inset 0 -3em 3em rgb(0 200 0 / 30%), 0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 0 0 / 60%);
+  border-radius: 10px;
+  width: 30rem;
+  height: 30rem;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+#colorPreview {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 8rem;
+  height: 5rem;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#colorHistory li {
+  margin: 5px 0;
+}
