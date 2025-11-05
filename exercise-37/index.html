@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 37</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- create dark button  -->
+    <button id="mode-toggle">Toggle Dark Mode</button>
+
+    <h1 style="text-align: center;">Simple Blog</h1>
+
+
+
+    <div class="post-container">
+        <h2>Create a new post</h2>
+        <form class="create-post">
+            <input id="post-title" type="text" required placeholder="Post Title">
+            <input id="post-image" type="url" required placeholder="image URL ">
+            <textarea name="text" id="post-text">write your post here...</textarea>
+            <button type="submit">Add Post</button>
+        </form>
+
+    </div>
+
+    <div class="post-container">
+        <h2 style="text-align: center;">All Posts</h2>
+        <form id="display-post">
+            <!-- <img src="" alt="Post Image">
+            <button>Edit </button>
+            <button>delete </button> -->
+        </form>
+
+    </div>
+
+
+    <script src="main.js"></script>
+    <script src="dark.js"></script>
+</body>
+
+</html>
