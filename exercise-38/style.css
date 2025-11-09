@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  line-height: 60px;
+}
+
+.logo em {
+  color: rgba(255, 68, 0, 0.8);
+}
+
+.logo:hover {
+  cursor: pointer;
+  padding: 10px;
+  font-style: italic;
+}
+
+.navbar-links {
+  height: 100%;
+}
+
+.navbar-links ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links li {
+  padding: 0 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 60px;
+  display: block;
+}
+
+.navbar-links a:hover {
+  background-color: #444;
+  padding: 0 10px;
+}
+
+.toggle-button {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 35px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+
+
+.home-page{
+    background-color: rgba(0, 0, 255, 0.7);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.About{
+    background-color: rgba(255, 0, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-page{
+    background-color: rgba(255, 255, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Blogs-page{
+    background-color: rgba(0, 128, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Portfilio-page{
+    background-color: pink;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Careers-page{
+    background-color: rgba(255, 166, 0, 0.8);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Contact-page{
+    background-color:grey;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* media  */
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.8s ease-in-out, opacity 0.8s ease-in-out;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+
+  .navbar-links a {
+    padding: 10px;
+    line-height: 30px;
+    border-radius: 10px;
+  }
+
+  .navbar.active .navbar-links {
+    max-height: 400px;
+    opacity: 1;
+    transition: max-height 0.8s ease-in-out, opacity 0.8s ease-in-out;
+  }
+
+  .navbar.active .toggle-button .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .navbar.active .toggle-button .bar:nth-child(1){
+    transform: translateY(9px) rotate(45deg);
+  }
+
+  .navbar.active .toggle-button .bar:nth-child(3){
+    transform:  translateY(-9px) rotate(-45deg);
+  }
+}
+ 
