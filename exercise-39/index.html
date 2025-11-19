@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator Languages</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">
+            <img src="translator-language-svgrepo-com.svg" alt="logo">
+            <h1>Language Translator</h1>
+
+        </div>
+        <form id="language-form">
+            <h4>From:</h4>
+            <select class="select-languages" name="Language" id="From-language">
+                <!-- <option value="en-GB">English</option>
+                <option value="so-SO">Somali</option> -->
+            </select>
+            <h4>To:</h4>
+            <select class="select-languages" name="Language" id="To-language">
+                <!-- <option value="en-GB">English</option>
+                <option value="so-SO">Somali</option> -->
+            </select>
+            <h2>Text To Translate:</h2>
+            <textarea name="text" id="text-from" required
+                placeholder="write what in your main to translate ..."></textarea>
+
+            <button id="transfer-Btn"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+        </form>
+        <div class="display-language ">
+            <h2>Translated Text:</h2>
+            <textarea name="text" id="text-To" required></textarea>
+        </div>
+    </div>
+
+
+    <script src="language.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
