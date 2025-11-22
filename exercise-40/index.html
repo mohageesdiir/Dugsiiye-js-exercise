@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="video-container">
+            <div class="video-display">
+                <video id="video-cover" src="https://www.pexels.com/download/video/34778355/"></video>
+            </div>
+
+            <!-- progress container -->
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </div>
+
+            <div class="video-types">
+
+                <div class="time">
+                    <sp id="current-Time">0:00</sp>
+                    <span>/</span>
+                    <sp id="duration-Time">0:00</sp>
+                </div>
+                <!-- controls -->
+                <div class="controls">
+                    <button id="backward-btn" class="control-Btn"><i class="fa fa-backward-step"></i></button>
+                    <button id="play-btn" class="control-Btn  playBtn"><i class="fa fa-play"></i></button>
+                    <button id="forward-btn" class="control-Btn"><i class="fa fa-forward-step"></i></button>
+                </div>
+
+                <!-- additional controls -->
+                <div class="additional-controls">
+                    <!-- speed  -->
+                    <div class="speed-container">
+                        <i class="fa fa-tachometer-alt"></i>
+                        <select name="speed" id="speed">
+                            <option value="0.5">0.5</option>
+                            <option value="0.75">0.75</option>
+                            <option value="1" selected>1</option>
+                            <option value="1.25">1.25</option>
+                            <option value="1.75">1.75</option>
+                        </select>
+                    </div>
+                    <!-- volume  -->
+                    <div class="volume-container">
+
+                        <i class="fa fa-volume-down"></i>
+                        <input type="range" name="volume" id="volume" min="0" max="1" step="0.1" value="1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            <h1 id="title">vidoe name</h1>
+            <p id="artist">artist</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -81,3 +81,5 @@ This repository container javascript exercise designed to improve your coding sk
 38. ### exercise-38 ![](Dugsiiye-js-exercise\exercise-38)
 
 39. ### exercise-39 ![](Dugsiiye-js-exercise\exercise-39)
+
+40. ### exercise-40 ![](Dugsiiye-js-exercise\exercise-40)
